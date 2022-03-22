@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8f1fc33-bb92-4af2-b214-ba5e90dcb71d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../001linkproviderdubbo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../001linkproviderdubbo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../001linkproviderdubbo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../001linkproviderdubbo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../001linkproviderdubbo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../001linkproviderdubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../001linkproviderdubbo/src/main/java/com/zhongguo/service/serviceimpl/UserserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../001linkproviderdubbo/src/main/resources/dubbo-service-provider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../002linkconsumerdubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../002linkconsumerdubbo/src/main/java/controller/userController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../002linkconsumerdubbo/src/main/resources/dubbo-link-consumer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../002linkconsumerdubbo/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../002linkconsumerdubbo/src/main/webapp/WEB-INF/student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__cn_hutool_hutool_all_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_stoyanr_evictor_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_github_openfeign_feign_core_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_buffer_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_codec_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_handler_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_resolver_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_transport_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_curator_curator_client_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_curator_curator_framework_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_curator_curator_x_discovery_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_3_beta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zookeeper_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zookeeper_discovery_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_zookeeper_core_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_zookeeper_discovery_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__org_webjars_jquery_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-api-commons/src/main/java/com/atguigu/springcloud/entities/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-api-commons/src/main/java/com/atguigu/springcloud/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-80/src/main/java/com/atguigu/springcloud/ConsumerMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-80/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-80/src/main/java/com/atguigu/springcloud/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-80/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-dashboard9001/src/main/java/com/atguigu/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-payment80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-payment80/src/main/java/com/atguigu/springcloud/PaymentMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-payment80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-payment80/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-payment80/src/main/java/com/atguigu/springcloud/myrule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumer-payment80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerOpenFeign-payment80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerOpenFeign-payment80/src/main/java/com/atguigu/springcloud/OrderFeignMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerOpenFeign-payment80/src/main/java/com/atguigu/springcloud/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerOpenFeign-payment80/src/main/java/com/atguigu/springcloud/controller/OpenFeignContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerOpenFeign-payment80/src/main/java/com/atguigu/springcloud/service/PaymentFignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerOpenFeign-payment80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerzk-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/OrderZkMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerzk-order80/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-consumerzk-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-eureka-server-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-eureka-server-7001/src/main/java/com/atguigu/springcloud/EurekaMain7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-eureka-server-7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-eureka-server-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-eureka-server-7002/src/main/java/com/atguigu/springcloud/EurekaMain7002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-eureka-server-7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GatewayMain9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/config/Gatewayconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/filter/MyGateWaylogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-gateway-gateway9527/src/test/java/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-hystrix-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-hystrix-8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-hystrix-8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-hystrix-8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-hystrix-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/PaymentMain8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/dao/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/service/serviceImpl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud/PaymentMain8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud/dao/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud/service/serviceImpl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-zookeeper-provider-payment8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-zookeeper-provider-payment8004/src/main/java/com/atguigu/springcloud/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-zookeeper-provider-payment8004/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2020cloud/cloud-zookeeper-provider-payment8004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/Java视频logedu/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/Java视频logedu/log_info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/Java视频logedu/log_warn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/common_utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/common_utils/src/main/java/com/he/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/common_utils/src/main/java/com/he/utils/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/service_mybase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/service_mybase/src/main/java/com/he/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/service_mybase/src/main/java/com/he/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/service_mybase/src/main/java/com/he/exception/HeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/commons/service_mybase/src/main/java/com/he/hander/MyMetaObjectHander.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/EduApplicationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/config/EduConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/controller/EduChapterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/controller/EduCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/controller/EduCourseDescriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/controller/EduLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/controller/EduSubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/controller/EduTeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/controller/EduVideoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/EduChapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/EduCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/EduCourseDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/EduSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/EduTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/EduVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/excel/ExcelSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/vo/ChapterVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/vo/CoursePublicVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/vo/EduCourseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/vo/OneSubjectVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/vo/TeacherQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/vo/TwoSubjectVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/entity/vo/VideoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/listener/ExcelListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/EduChapterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/EduCourseDescriptionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/EduCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/EduSubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/EduTeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/EduVideoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/xml/EduChapterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/xml/EduCourseDescriptionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/xml/EduCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/xml/EduSubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/xml/EduTeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/mapper/xml/EduVideoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/EduChapterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/EduCourseDescriptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/EduCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/EduSubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/EduTeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/EduVideoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/impl/EduChapterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/impl/EduCourseDescriptionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/impl/EduCourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/impl/EduSubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/impl/EduTeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/java/com/he/eduservice/service/impl/EduVideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/test/java/com/he/benteng/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/test/java/com/he/benteng/excel/DemoExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/test/java/com/he/benteng/excel/ExcelListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_edu/src/test/java/com/he/benteng/excel/ExcelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_oss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_oss/src/main/java/com/he/benteng/OSSMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_oss/src/main/java/com/he/benteng/controller/OSScontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_oss/src/main/java/com/he/benteng/service/OSSservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_oss/src/main/java/com/he/benteng/service/serviceImpl/OSSserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_oss/src/main/java/com/he/benteng/util/ConstantPropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_oss/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/main/java/com/he/benteng/controller/VideoAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/main/java/com/he/benteng/service/serviceimpl/uploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/main/java/com/he/benteng/service/uploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/main/java/com/he/benteng/utils/aliyunSdkUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/main/java/com/he/benteng/utils/constPropertiesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/test/java/com/he/benteng/UploadVideoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/test/java/com/he/benteng/aliyunSdkUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/test/java/com/he/benteng/testGetPlayInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../benteng/service/service_vod/src/test/java/com/he/benteng/testGetVideoPlayAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/BlogAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/PageParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/SecurityUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/annotation/LogAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/annotation/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/cache/CacheAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/config/WebMVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/CommitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/RegistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/TagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/loginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/entity/ArticleBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/entity/ArticleParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/entity/UserThreadLoacl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/entity/vo/ArticleBodyVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/ArticleBodyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/ArticleTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/CommitMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/TagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/CommitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/CommitServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/src/main/java/com/hechunyu/MybatisMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/src/main/java/com/hechunyu/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/src/main/java/com/hechunyu/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatisplusTest/src/test/java/MybatisMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitmq/src/main/java/com/zhongguo/RabbitTestSendFanout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/springsecurity/security/config/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/springsecurity/security/config/SpringSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/springsecurity/security/controller/testsecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/springsecurity/security/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../security/src/main/java/com/springsecurity/security/service/MyUserDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mapper/src/main/java/com/he/mapper/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mapper/src/main/java/com/he/mapper/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mapper/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mapper/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/blog-api/target/" />
+    <ignored path="$PROJECT_DIR$/blog-admin/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/cache/CacheAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-713">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/cache/Cache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/annotation/LogAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/annotation/LogAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/config/springsecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-211">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/config/MybatisPlusConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/controller/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/mapper/AdminMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/AuthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/SecurityUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>List&lt;ArticleVo&gt;</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/ArticleTagMapper.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/annotation/LogAnnotation.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/utils/HttpContextUtils.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/annotation/LogAspect.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/uploadController.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/utils/QiniuUtils.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/TagController.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/TagService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/TagServiceImpl.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/entity/vo/PageParams.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/xml/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/cache/Cache.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/cache/CacheAspect.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/resources/pages/main.html" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/Permission.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/PageParam.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/Result.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/PageResult.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/BlogAdmin.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/blog-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/entity/Admin.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/mapper/AdminMapper.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/SecurityUserService.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/config/springsecurityConfig.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/Dockerfile" />
+        <option value="$PROJECT_DIR$/blog-api/Dockerfile" />
+        <option value="$PROJECT_DIR$/blog-api/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/resources/application-default.yml" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/blog-api/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/resources/com/he/mapper/TagMapper.xml" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/blog-api/src/main/java/com/he/config/WebMVCConfig.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blogapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="230" />
+    <option name="y" value="390" />
+    <option name="width" value="1390" />
+    <option name="height" value="580" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="hander" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blogapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogapp" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="he" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1647919919829" />
+    <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/个人博客/博客项目/博客项目源码/blog-parent" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idealcode\code\blogapp\blog-api\src\main\resources\com\he\mapper" />
+      <recent name="D:\idealcode\code\blogapp\blog-api\src\main\resources\com.he.mapper" />
+      <recent name="D:\idealcode\code\blogapp\blog-admin\src\main\resources\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idealcode\code\blogapp\blog-api\src\main\resources" />
+      <recent name="D:\idealcode\code\blogapp\blog-admin\src\main\resources" />
+      <recent name="D:\idealcode\code\blogapp\blog-api\src\main\java\com\he\utils" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.he.service" />
+      <recent name="com.he.mapper" />
+      <recent name="com.he.service.serviceImpl" />
+      <recent name="com.he.entity.vo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.blog-api [-U,clean,package]">
+    <configuration name="blog-api [-U,clean,package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="-U" />
+                <option value="clean" />
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map>
+                <entry key="prod" value="true" />
+              </map>
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/blog-api" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogAdmin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blogadmin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.he.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.he.BlogAdmin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blogapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.he.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.he.BlogApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="blog-api: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="blog-api/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.blog-api: Compose Deployment" />
+      <item itemvalue="Maven.blog-api [-U,clean,package]" />
+      <item itemvalue="Spring Boot.BlogAdmin" />
+      <item itemvalue="Spring Boot.BlogApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BlogApp" />
+        <item itemvalue="Docker.blog-api: Compose Deployment" />
+        <item itemvalue="Spring Boot.BlogAdmin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\75898\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8f1fc33-bb92-4af2-b214-ba5e90dcb71d" name="Default Changelist" comment="" />
+      <created>1647156897685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647156897685</updated>
+      <workItem from="1647156900424" duration="19050000" />
+      <workItem from="1647216967925" duration="16839000" />
+      <workItem from="1647248743159" duration="7827000" />
+      <workItem from="1647388017996" duration="31198000" />
+      <workItem from="1647475220743" duration="18583000" />
+      <workItem from="1647563112087" duration="14862000" />
+      <workItem from="1647653561961" duration="18043000" />
+      <workItem from="1647733506338" duration="9869000" />
+      <workItem from="1647908896328" duration="589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="136860000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.288874" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4650838" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3282123" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32960895" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/utils/JWTUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/CommitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/LogoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/application-prod.yml" />
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/application-default.yml" />
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/BlogAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/docker-compose.yml" />
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/xml/ArticleMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/BlogApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/com/he/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/ArticleTagMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2438">
+          <caret line="141" column="48" selection-start-line="141" selection-start-column="38" selection-end-line="141" selection-end-column="48" />
+          <folding>
+            <element signature="e#7131#7132#0" expanded="true" />
+            <element signature="e#7198#7199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/CommitMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/TagMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/ArticleBodyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/com/he/mapper/TagMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2438">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/service/serviceImpl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-478">
+          <caret line="71" column="51" lean-forward="true" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/controller/uploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/utils/HttpContextUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/config/WebMVCConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/cache/CacheAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/cache/Cache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/annotation/LogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-api/src/main/java/com/he/annotation/LogAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/SecurityUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/config/springsecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-admin/src/main/java/com/he/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_311</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>blogadmin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.79</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

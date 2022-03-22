@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--MyBatis配置文件-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.he.mapper.TagMapper">
+    <select id="findTagByArticleId" resultType="com.he.entity.Tag">
+           SELECT * FROM tag WHERE  id IN (SELECT tag_id  FROM article_tag WHERE article_id =#{id} )
+    </select>
+    <select id="selectHot"  parameterType="java.lang.Integer" resultType="long">
+        SELECT  tag_id  FROM article_tag GROUP BY tag_id
+         ORDER BY COUNT(1) DESC LIMIT  #{limit}
+    </select>
+    <select id="selectTagsHot" parameterType="list" resultType="com.he.entity.Tag">
+          select id ,avatar,tag_name as tagName from tag  where id in
+          <foreach collection="tagIds" item="tagId" open="(" close=")" separator="," >
+              #{tagId}
+          </foreach>
+    </select>
+</mapper>
