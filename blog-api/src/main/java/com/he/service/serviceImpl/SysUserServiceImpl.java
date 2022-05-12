@@ -17,7 +17,7 @@ public class SysUserServiceImpl implements SysUserService {
     private SysUserMapper sysUserMapper;
 
     @Override
-    public SysUser findAuthor(Long authorId) {
+    public SysUser findAuthor(String  authorId) {
 
         return sysUserMapper.selectById(authorId);
     }

@@ -25,10 +25,15 @@ public class ArticleController {
     @PostMapping
     //五分钟缓存
     @Cache(expire = 5*60*1000,name = "Articleslist")
-    public Result listArticles(@RequestBody PageParams pageParams){
+    public Result listArticles(@RequestBody(required = false) PageParams pageParams){
+
         List<ArticleVo> articleList=articleService.PageList(pageParams);
+        articleList.stream().forEach(item->{
+            System.out.println(item);
+        });
         return Result.success(articleList);
     }
+
     @PostMapping("hot")
     @Cache(expire = 5*60*1000,name = "hot")
     public Result hotArticles(){
@@ -48,7 +53,9 @@ public class ArticleController {
     }
     @PostMapping("view/{id}")
     public Result findArticleById(@PathVariable("id") Long id) {
-        ArticleVo articleVo = articleService.findArticleById(id);
+        System.out.println("**********id"+id);
+
+        ArticleVo articleVo = articleService.findArticleById(id+"");
 
         return Result.success(articleVo);
     }

@@ -21,7 +21,7 @@ public class CategoryServiceImpl implements CategoryService {
     private CategoryMapper categoryMapper;
 
     @Override
-    public CategoryVo findCategoryById(Long id) {
+    public CategoryVo findCategoryById(String  id) {
         Category category = categoryMapper.selectById(id);
         CategoryVo categoryVo = new CategoryVo();
         BeanUtils.copyProperties(category, categoryVo);
@@ -55,9 +55,10 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
-    public Result categoriesDetailById(Long id) {
+    public Result categoriesDetailById(String id) {
 
         Category category = categoryMapper.selectById(id);
+
         return Result.success(category);
     }
 }

@@ -38,7 +38,7 @@ public class TagServiceImpl implements TagService {
     }
 
     @Override
-    public List<TagVo> findAllTag(Long id) {
+    public List<TagVo> findAllTag(String  id) {
         List<Tag> tagByArticleId = tagMapper.findTagByArticleId(id);
         return copyList(tagByArticleId);
     }
@@ -69,7 +69,7 @@ public class TagServiceImpl implements TagService {
     }
 
     @Override
-    public Result findAllDetailById(Long id) {
+    public Result findAllDetailById(String id) {
         Tag tag = tagMapper.selectById(id);
         return Result.success(tag);
     }

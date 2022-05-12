@@ -6,11 +6,11 @@ import com.he.entity.vo.CategoryVo;
 
 public interface CategoryService {
 
-    CategoryVo findCategoryById(Long id);
+    CategoryVo findCategoryById(String id);
 
     Result findAll();
 
     Result findDetail();
 
-    Result categoriesDetailById(Long id);
+    Result categoriesDetailById(String id);
 }

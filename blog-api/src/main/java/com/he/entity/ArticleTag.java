@@ -5,9 +5,9 @@ import lombok.Data;
 @Data
 public class ArticleTag {
 
-    private Long id;
+    private String  id;
 
-    private Long articleId;
+    private String articleId;
 
-    private Long tagId;
+    private String  tagId;
 }

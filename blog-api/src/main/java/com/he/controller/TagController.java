@@ -31,7 +31,7 @@ public class TagController {
         return tagService.findAllDetail();
     }
     @GetMapping("detail/{id}")
-    public Result findAllDetailByid(@PathVariable Long id ){
+    public Result findAllDetailByid(@PathVariable String id ){
         return tagService.findAllDetailById(id);
     }
 }

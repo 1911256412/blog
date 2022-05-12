@@ -7,7 +7,7 @@ import com.he.entity.vo.TagVo;
 import java.util.List;
 
 public interface  TagService {
-    List<TagVo> findAllTag(Long id);
+    List<TagVo> findAllTag(String id);
 
     List<Tag> selectHotTag();
 
@@ -17,5 +17,5 @@ public interface  TagService {
     Result findAllDetail();
 
 
-    Result findAllDetailById(Long id);
+    Result findAllDetailById(String id);
 }

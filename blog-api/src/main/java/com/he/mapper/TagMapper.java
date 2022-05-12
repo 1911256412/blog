@@ -6,7 +6,7 @@ import com.he.entity.Tag;
 import java.util.List;
 
 public interface TagMapper extends BaseMapper<Tag> {
-    List<Tag> findTagByArticleId(Long id);
+    List<Tag> findTagByArticleId(String  id);
 
     List<Long> selectHot(int limit);
 

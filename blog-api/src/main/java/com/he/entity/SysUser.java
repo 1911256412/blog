@@ -6,7 +6,7 @@ import lombok.Data;
 //作者
 public class SysUser {
 
-    private Long id;
+    private String  id;
 
     private String account;
 

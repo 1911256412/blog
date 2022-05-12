@@ -24,7 +24,8 @@ public class CategoryController {
         return categoryService.findDetail();
     }
     @GetMapping("detail/{id}")
-    public Result categoriesDetailById(@PathVariable("id") Long id){
+    public Result categoriesDetailById(@PathVariable("id") String  id){
+        System.out.println("**********************个人博客"+id);
         return categoryService.categoriesDetailById(id);
     }
 }

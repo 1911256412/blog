@@ -112,9 +112,13 @@
         </dependency>
     </dependencies>
 
+
+
+
     <build>
-        <finalName>blogapi</finalName>
+        <finalName>blog_api</finalName>
         <!--打包的时候把xml文件也打包进去 -->
     </build>
+
 
 </project>

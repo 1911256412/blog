@@ -43,15 +43,24 @@ public class CommitServiceImpl implements CommitService {
         comment.setAuthorId(sysUser.getId());
         comment.setContent(commentParam.getContent());
         comment.setCreateDate(System.currentTimeMillis());
-        Long parent = commentParam.getParent();
+         Integer parent = Integer.parseInt(commentParam.getParent());
         if (parent == null || parent == 0) {
             comment.setLevel(1);
         } else {
             comment.setLevel(2);
         }
-        comment.setParentId(parent == null ? 0 : parent);
-        Long toUserId = commentParam.getToUserId();
-        comment.setToUid(toUserId == null ? 0 : toUserId);
+        if(parent==null){
+            comment.setParentId("0");
+        }else {
+            comment.setParentId(parent+"");
+        }
+
+        String  toUserId = commentParam.getToUserId();
+        if(toUserId==null){
+            comment.setToUid("0");
+        }else {
+            comment.setToUid(toUserId+"");
+        }
         commitMapper.insert(comment);
         return Result.success(null);
     }
@@ -88,7 +97,7 @@ public class CommitServiceImpl implements CommitService {
     }
 
     //通过父id查询
-    private List<CommentVo> findCommentsByParentId(Long id) {
+    private List<CommentVo> findCommentsByParentId(String   id) {
         LambdaQueryWrapper<Comment> wrapper = new LambdaQueryWrapper<>();
         wrapper.eq(Comment::getParentId, id);
         //级别为二级

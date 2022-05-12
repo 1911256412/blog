@@ -18,7 +18,7 @@ public interface ArticleService {
 
     Result listArch();
 
-    ArticleVo findArticleById(Long id);
+    ArticleVo findArticleById(String id);
 
     Result publish(ArticleParam articleParam);
 

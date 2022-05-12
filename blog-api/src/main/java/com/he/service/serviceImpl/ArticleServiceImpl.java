@@ -86,16 +86,14 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public ArticleVo findArticleById(Long id) {
+    public ArticleVo findArticleById(String id) {
 
         Article article = articleMapper.selectById(id);
         ArticleVo articleVo=new ArticleVo();
         if(article!=null){
             articleVo= copy(article, true, true, true, true);
         }
-
-
-
+        System.out.println("***********文章信息"+article);
         return articleVo;
     }
 
@@ -137,12 +135,16 @@ public class ArticleServiceImpl implements ArticleService {
     public List<ArticleVo> PageList(PageParams pageParams) {
         //实现自定义的分页
         Page<Article> page = new Page<>(pageParams.getPage(), pageParams.getPageSize());
+
         IPage<Article> iPage = articleMapper.selectListPage(page, pageParams.getYear(), pageParams.getMonth()
                 , pageParams.getTagId(), pageParams.getCategoryId());
         List<Article> records = iPage.getRecords();
 
         List<ArticleVo> articleVoList = copyList(records);
-
+       // List<ArticleVo> articleVoList = null;
+        articleVoList.stream().forEach(item->{
+            System.out.println("文章的值"+item);
+        });
         return articleVoList;
     }
 
@@ -178,12 +180,12 @@ public class ArticleServiceImpl implements ArticleService {
         articleVo.setCreateDate(new DateTime(article.getCreateDate()).toString("yyyy-MM-dd HH:mm"));
         //并不是所有的接口 都需要标签 ，作者信息
         if (isTag) {
-            Long articleId = article.getId();
+            String  articleId = article.getId();
 
             articleVo.setTags(tagService.findAllTag(articleId));
         }
         if (isAuthor) {
-            Long authorId = article.getAuthorId();
+            String  authorId = article.getAuthorId();
             articleVo.setAuthor(sysUserService.findAuthor(authorId).getNickname());
         }
         if (isBody) {
@@ -191,19 +193,23 @@ public class ArticleServiceImpl implements ArticleService {
             articleVo.setBody(articleBody);
         }
         if (isCategory) {
+            System.out.println("**************文章分类id"+article.getCategoryId());
             CategoryVo categoryVo = findCategory(article.getCategoryId());
-            articleVo.setCategory(categoryVo);
+            System.out.println("***********文章分类"+categoryVo);
+
+            articleVo.setCategoryVo(categoryVo);
+            System.out.println("文章*********"+articleVo);
         }
         return articleVo;
     }
 
 
-    private CategoryVo findCategory(Long categoryId) {
+    private CategoryVo findCategory(String  categoryId) {
         return categoryService.findCategoryById(categoryId);
     }
 
 
-    private ArticleBodyVo findArticleBody(Long articleId) {
+    private ArticleBodyVo findArticleBody(String articleId) {
         LambdaQueryWrapper<ArticleBody> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(ArticleBody::getArticleId, articleId);
         ArticleBody articleBody = articleBodyMapper.selectOne(queryWrapper);
@@ -215,7 +221,9 @@ public class ArticleServiceImpl implements ArticleService {
     //定义要封装对象的函数,需要定义一个方法把Article对象转换成ArticleVo
     private List<ArticleVo> copyList(List<Article> records) {
         List<ArticleVo> list = new ArrayList<>();
+        System.out.println("copyList文章的值"+list);
         for (Article record : records) {
+            System.out.println("copyList文章的值"+record);
             ArticleVo articleVo = copy(record, true, true);
             list.add(articleVo);
         }
@@ -238,6 +246,7 @@ public class ArticleServiceImpl implements ArticleService {
             SysUser sysUser = sysUserService.findAuthor(article.getAuthorId());
             articleVo.setAuthor(sysUser.getNickname());
         }
+        System.out.println("最终传递过来的vo********"+articleVo);
         return articleVo;
     }
 }

@@ -27,7 +27,9 @@ public class CacheAspect {
     private RedisTemplate<String, String> redisTemplate;
 
     @Pointcut("@annotation(com.he.cache.Cache)")
-    public void pt(){}
+    public void pt(){
+
+    }
 
     @Around("pt()")
     public Object around(ProceedingJoinPoint pjp){

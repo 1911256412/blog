@@ -3,7 +3,7 @@ package com.he.service;
 import com.he.entity.SysUser;
 
 public interface SysUserService  {
-    SysUser findAuthor(Long authorId);
+    SysUser findAuthor(String  authorId);
 
     SysUser findUser(String account, String password);
 
