@@ -1,13 +1,13 @@
 <template>
   <el-card>
-    <h1 class="me-author-name">码神之路</h1>
+    <h1 class="me-author-name">小贺个人空间</h1>
     <div class="me-author-description">
-      <span><i class="el-icon-location-outline"></i> &nbsp;山西&太原</span>
+      <span><i class="el-icon-location-outline"></i> &nbsp;黑龙江&哈尔滨</span>
       <span><i class="me-icon-job"></i> &nbsp;java技术专家</span>
     </div>
     <div class="me-author-tool">
-      <i @click="showTool(qq)" :title="qq.title" class="iconfont icon-qq"></i>
-      <i @click="showTool(bilibili)" :title="bilibili.title" class="iconfont icon-bilibili-fill"></i>
+      <i @click="showTool(qq)" :title="qq.title" class="iconfont icon-QQ-circle-fill"></i>
+      <i @click="showTool(github)" :title="github.title" class="iconfont icon-github"></i>
     </div>
   </el-card>
 
@@ -18,10 +18,10 @@
     name: 'CardMe',
     data() {
       return {
-        qq: {title: 'QQ', message: '723663826'},
-        bilibili: {
-          title: '哔哩哔哩',
-          message: '<a target="_blank" href="https://space.bilibili.com/473844125">https://space.bilibili.com/473844125</a>'
+        qq: {title: 'QQ', message: '1911256412'},
+        github: {
+          title: 'github',
+          message: '<a target="_blank" href="https://github.com/1911256412">https://github.com/1911256412</a>'
         }
       }
     },

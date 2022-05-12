@@ -1,7 +1,7 @@
 <template>
+  
   <div v-title :data-title="title">
     <el-container>
-
       <el-aside class="me-area">
         <ul class="me-month-list">
           <li v-for="a in archives" :key="a.year + a.month" class="me-month-item">
@@ -59,7 +59,7 @@
     },
     computed: {
       title (){
-        return this.currentArchive + ' - 文章归档 - 码神之路'
+        return this.currentArchive + ' - 文章归档 - 小贺个人空间'
       },
       currentArchive (){
         if(this.article.query.year && this.article.query.month){
@@ -79,6 +79,7 @@
       listArchives() {
         listArchives().then((data => {
           this.archives = data.data
+
         })).catch(error => {
           that.$message({type: 'error', message: '文章归档加载失败!', showClose: true})
         })

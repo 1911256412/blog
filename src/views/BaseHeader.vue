@@ -15,12 +15,13 @@
           <el-menu-item index="/category/all">文章分类</el-menu-item>
           <el-menu-item index="/tag/all">标签</el-menu-item>
           <el-menu-item index="/archives">文章归档</el-menu-item>
-
+          <!-- <el-menu-item ><el-input class="input" v-model="input" placeholder="请输入内容"></el-input>搜索</el-menu-item> -->
           <el-col :span="4" :offset="4">
             <el-menu-item index="/write"><i class="el-icon-edit"></i>写文章</el-menu-item>
+             
           </el-col>
-
         </el-menu>
+        
       </el-col>
 
       <template v-else>
@@ -95,6 +96,7 @@
 
   .el-header {
     position: fixed;
+ 
     z-index: 1024;
     min-width: 100%;
     box-shadow: 0 2px 3px hsla(0, 0%, 7%, .1), 0 0 0 1px hsla(0, 0%, 7%, .1);
@@ -103,18 +105,23 @@
   .me-title {
     margin-top: 10px;
     font-size: 24px;
+    
   }
 
   .me-header-left {
     margin-top: 10px;
+    
   }
-
+  /* .input{
+    width: 120px;
+  } */
   .me-title img {
     max-height: 2.4rem;
     max-width: 100%;
   }
 
   .me-header-picture {
+    
     width: 36px;
     height: 36px;
     border: 1px solid #ddd;

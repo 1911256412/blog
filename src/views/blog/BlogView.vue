@@ -55,7 +55,8 @@
           <div class="me-view-tag">
             文章分类：
             <!--<span style="font-weight: 600">{{article.category.categoryName}}</span>-->
-            <el-button @click="tagOrCategory('category', article.category.id)" size="mini" type="primary" round plain>{{article.category.categoryName}}</el-button>
+            <el-button @click="tagOrCategory('category', article.categoryVo.id)" size="mini" type="primary" round plain> {{article.categoryVo.categoryName}}</el-button>
+           
           </div>
 
           <div class="me-view-comment">
@@ -160,7 +161,7 @@
         return default_avatar
       },
       title() {
-        return `${this.article.title} - 文章 - 码神之路`
+        return `${this.article.title} - 文章 - 小贺的个人空间`
       }
     },
     methods: {
@@ -175,7 +176,6 @@
         viewArticle(that.$route.params.id).then(data => {
           Object.assign(that.article, data.data)
           that.article.editor.value = data.data.body.content
-
           that.getCommentsByArticle()
         }).catch(error => {
           if (error !== 'error') {

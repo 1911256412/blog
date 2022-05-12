@@ -1,11 +1,10 @@
 <template>
-  <div v-title data-title="码神之路">
+  <div v-title data-title="小贺的个人空间">
+
     <el-container>
 
       <el-main class="me-articles">
-
         <article-scroll-page></article-scroll-page>
-
       </el-main>
 
       <el-aside>
@@ -69,6 +68,7 @@
         let that = this
         getNewArtices().then(data => {
           that.newArticles = data.data
+          
         }).catch(error => {
           if (error !== 'error') {
             that.$message({type: 'error', message: '最新文章加载失败!', showClose: true})

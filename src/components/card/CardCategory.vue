@@ -6,7 +6,7 @@
     </div>
 
     <ul class="me-category-list">
-      <li class="me-category-item" v-for="l in 3" :key="l"><a>为什么程序员那么有钱为什么程序员那么有钱为什么程序员那么有钱</a></li>
+      <li class="me-category-item" v-for="l in 3" :key="l"><a>为什么程序员那么有钱</a></li>
       <li class="me-category-item" v-for="l in 3" :key="l"><a>搭建element-ui的Vue前端工程操作</a></li>
 
     </ul>

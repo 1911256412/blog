@@ -144,7 +144,7 @@
     },
     computed: {
       title (){
-        return '写文章 - 码神之路'
+        return '写文章 - 小贺个人空间'
 		}
 	},
     methods: {

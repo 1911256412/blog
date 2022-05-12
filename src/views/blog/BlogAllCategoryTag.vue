@@ -58,7 +58,7 @@
         defaultAvatar:defaultAvatar,
         categorys: [],
         tags: [],
-        currentActiveName: 'category'
+        currentActiveName: 'categorys'
       }
     },
     computed: {
@@ -72,10 +72,11 @@
       },
       categoryTagTitle (){
         if(this.currentActiveName == 'category'){
-          return '文章分类 - 码神之路'
+  
+          return '文章分类 - 个人博客'
         }
-        console.info('dddd')
-        return '标签 - 码神之路'
+      
+        return '标签 - 个人博客'
       }
     },
     methods: {
@@ -139,7 +140,7 @@
   .me-allct-content {
     display: inline-block;
     width: 100%;
-    background-color: #fff;
+    background-color:azure;
     border: 1px solid #f1f1f1;
     transition: border-color .3s;
     text-align: center;

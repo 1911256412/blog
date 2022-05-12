@@ -6,18 +6,18 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "1000860",
-      "name": "qq",
-      "font_class": "qq",
-      "unicode": "e62e",
-      "unicode_decimal": 58926
+      "icon_id": "4937004",
+      "name": "QQ-circle-fill",
+      "font_class": "QQ-circle-fill",
+      "unicode": "e887",
+      "unicode_decimal": 59527
     },
     {
-      "icon_id": "13553421",
-      "name": "bilibili-fill",
-      "font_class": "bilibili-fill",
-      "unicode": "eea8",
-      "unicode_decimal": 61096
+      "icon_id": "7617119",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "e50e",
+      "unicode_decimal": 58638
     }
   ]
 }

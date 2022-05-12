@@ -70,22 +70,23 @@
         this.getArticles()
       },
       view(id) {
+ 
         this.$router.push({path: `/view/${id}`})
       },
       getArticles() {
+        
         let that = this
         that.loading = true
-
         getArticles(that.query, that.innerPage).then(data => {
-
           let newArticles = data.data
+   
+      console.log(data.data)
           if (newArticles && newArticles.length > 0) {
             that.innerPage.pageNumber += 1
             that.articles = that.articles.concat(newArticles)
           } else {
             that.noData = true
           }
-
         }).catch(error => {
           if (error !== 'error') {
             that.$message({type: 'error', message: '文章加载失败!', showClose: true})
